@@ -23,3 +23,6 @@ $$cup \quad  cap\ \quad wedge \quad  vee \quad  \cup \cap \wedge \vee $$
 $$approx \quad\approx$$
 $$equiv \quad\equiv$$
 $$neq \quad\neq$$
+$$therefore \therefore$$
+$$because \because$$
+$$frac \ a \ b\quad \frac a b$$

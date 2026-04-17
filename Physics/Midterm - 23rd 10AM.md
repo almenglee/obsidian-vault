@@ -20,7 +20,7 @@ m (길이), kg (질량), s (시간)
 
 ## 차원 분석
 
-[v] = LT^{-1}, \quad [a] = LT^{-2}
+$$[v] = LT^{-1}, \quad [a] = LT^{-2}$$
 
 👉 핵심:
 
@@ -49,14 +49,10 @@ m (길이), kg (질량), s (시간)
 - 거리: 스칼라
     
 - 평균속도:
-    
-
-vavg=ΔxΔtv_{avg} = \frac{\Delta x}{\Delta t}
+    $vavg=ΔxΔtv_{avg} = \frac{\Delta x}{\Delta t}$
 
 - 순간속도:
-    
-
-v=dxdtv = \frac{dx}{dt}
+    $v=dxdtv = \frac{dx}{dt}$
 
 👉 그래프 기울기 = 속도
 
@@ -64,23 +60,23 @@ v=dxdtv = \frac{dx}{dt}
 
 ## 2.2 가속도
 
-a=dvdta = \frac{dv}{dt}
+$a=dvdta = \frac{dv}{dt}$
 
 ---
 
 ## 2.3 등가속도 공식 (필수 암기)
 
-v = v_0 + at
+$v = v_0 + at$
 
-x = x_0 + v_0 t + \frac{1}{2}at^2
+$x = x_0 + v_0 t + \frac{1}{2}at^2$
 
-v^2 = v_0^2 + 2a(x-x_0)
+$v^2 = v_0^2 + 2a(x-x_0)$
 
 ---
 
 ## 2.4 자유낙하
 
-a=−ga = -g
+$a=−ga = -g$
 
 ---
 
@@ -97,13 +93,13 @@ a=−ga = -g
 
 ## 성분 분해
 
-A_x = A \cos\theta, \quad A_y = A \sin\theta
+$A_x = A \cos\theta, \quad A_y = A \sin\theta$
 
 ---
 
 ## 벡터 합
 
-R=Rx2+Ry2R = \sqrt{R_x^2 + R_y^2}
+$R=Rx2+Ry2R = \sqrt{R_x^2 + R_y^2}$
 
 ---
 
@@ -119,23 +115,23 @@ R=Rx2+Ry2R = \sqrt{R_x^2 + R_y^2}
 
 ### 수평:
 
-vx=constantv_x = constant
+$vx=constantv_x = constant$
 
 ### 수직:
 
-ay=−ga_y = -g
+$ay=−ga_y = -g$
 
 ---
 
 ## 최대 높이
 
-v_y = 0 \Rightarrow h = \frac{v_{0y}^2}{2g}
+$v_y = 0 \Rightarrow h = \frac{v_{0y}^2}{2g}$
 
 ---
 
 ## 사거리
 
-R = \frac{v_0^2 \sin 2\theta}{g}
+$R = \frac{v_0^2 \sin 2\theta}{g}$
 
 ---
 
@@ -154,7 +150,7 @@ R = \frac{v_0^2 \sin 2\theta}{g}
 
 ## 5.2 제2법칙 (핵심)
 
-\sum F = ma
+$\sum F = ma$
 
 ---
 
@@ -168,13 +164,13 @@ R = \frac{v_0^2 \sin 2\theta}{g}
 
 ## 5.4 중력
 
-W=mgW = mg
+$W=mgW = mg$
 
 ---
 
 ## 5.5 마찰
 
-fk=μkNf_k = \mu_k N
+$fk=μkNf_k = \mu_k N$
 
 ---
 
@@ -192,13 +188,13 @@ free-body diagram 먼저
 
 ## 구심가속도
 
-a_c = \frac{v^2}{r}
+$a_c = \frac{v^2}{r}$
 
 ---
 
 ## 구심력
 
-F=mv2rF = m\frac{v^2}{r}
+$F=mv2rF = m\frac{v^2}{r}$
 
 ---
 
@@ -212,7 +208,7 @@ F=mv2rF = m\frac{v^2}{r}
 
 ## 일
 
-W = Fd \cos\theta
+$W = Fd \cos\theta$
 
 ---
 
@@ -224,7 +220,7 @@ W = Fd \cos\theta
 
 ## 일-에너지 정리
 
-W=ΔKW = \Delta K
+$W=ΔKW = \Delta K$
 
 ---
 
@@ -232,11 +228,11 @@ W=ΔKW = \Delta K
 
 ### 중력:
 
-U=mghU = mgh
+$U=mghU = mgh$
 
 ### 스프링:
 
-U = \frac{1}{2}kx^2
+$U = \frac{1}{2}kx^2$
 
 ---
 
@@ -244,13 +240,22 @@ U = \frac{1}{2}kx^2
 
 ## 핵심 법칙
 
-E=K+U=constantE = K + U = constant
+$E=K+U=constantE = K + U = constant$
 
 ---
 
 ## 마찰 있을 때
 
-Wnon−conservative=ΔEW_{non-conservative} = \Delta E
+$W_{non−conservative}=ΔEW_{non-conservative} = \Delta E$
+$$
+\begin{align*}
+\sum W_{other forces} = \int (\sum \vec F_{otherforces})\cdot d\vec r \\
+\sum W_{other forces} + \int \vec f_k \cdot d\vec r \\
+= \int(\sum \vec F_{other forces})\cdot d\vec r+\int \vec f_k \cdot d\vec r \\
+= \int(\sum \vec F_{other forces}+ \vec f_k)\cdot d\vec r \\
+\frac d {dt}(\vec v \cdot \vec v) =\frac {d\vec v} {dt}\cdot \vec v +\frac {d\vec v} {dt}\cdot \vec v = 2\frac {d\vec v} {dt}\cdot \vec v
+\end{align*}
+$$
 
 👉 에너지 손실 고려
 
@@ -266,13 +271,13 @@ Wnon−conservative=ΔEW_{non-conservative} = \Delta E
 
 ## 보존 법칙
 
-∑pi=∑pf\sum p_i = \sum p_f
+$∑pi=∑pf\sum p_i = \sum p_f$
 
 ---
 
 ## 충격량
 
-J=ΔpJ = \Delta p
+$J=ΔpJ = \Delta p$
 
 ---
 
@@ -325,16 +330,3 @@ J=ΔpJ = \Delta p
 
 ---
 
-# 🔥 한 줄 결론
-
-> 이 과목은 “공식 암기”가 아니라  
-> **“상황 → 모델 선택 능력” 싸움입니다**
-
----
-
-# 필요하면
-
-👉 “A+용 문제 풀이 패턴 30개”  
-👉 “시험 예상 문제 + 풀이”
-
-바로 만들어드리겠습니다.
