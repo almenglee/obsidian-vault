@@ -9,7 +9,9 @@
     
 3. 동역학 (Dynamics)
     
-4. 기계제도 (Engineering Drawing)
+4. 기계제도 (
+5. 
+6. Engineering Drawing)
     
 
 👉 출제 방식:
