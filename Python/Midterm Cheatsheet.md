@@ -283,7 +283,7 @@ for x in arr:
 ```python
 print(f"{value:.2f}")
 print(*arr)
-```
+``` 
 
 ---
 
